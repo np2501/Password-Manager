@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: url('images/pic2.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* No repeating of the image */
+    background-attachment: fixed; /* Fixed background position */
+    background-position: center;
+   
+}
+
+nav{
+    background-color:black;
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-text {
+    color: red;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;  
+}
+
+ul li{
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+}
+
+table,td,tr{
+    border-collapse: collapse;
+    border: 2px solid rgb(254, 251, 251);
+    padding: 5px 13px;
+    color: white;
+}
+
+table th{
+    color: white;
+}
+
+label{
+    color: white;
+    
+}
+
+.container{
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+
+
+
+h1,h2{
+    margin:23px 0;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.btn{
+    margin: 25px 0;
+    padding: 8px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border:  2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.btnsm{
+    padding: 8px;
+    background: black;
+    color: white;
+    border:  2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+} 
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Add more responsive styles as needed */
+}
